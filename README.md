@@ -18,3 +18,7 @@ Web Audio menjana melodi asli pada gain 0.2, kilauan, bunyi jawapan dan tepukan 
 Muat naik `index.html`, `style.css`, `script.js` dan `assets/` ke repositori sasaran. Di Settings → Pages, pilih Deploy from a branch dan root folder. Selepas URL HTTPS tersedia, dalam Google Sites pilih Insert → Embed → URL dan masukkan pautan Pages. Cadangan tinggi benaman: 900px; mod telefon boleh menatal. Gunakan hos awam untuk akses murid; pautan Sites persendirian memerlukan akses pemilik.
 
 `dist/` ialah salinan statik untuk Sites hosting. Selepas suntingan, salin semula tiga fail utama dan folder assets ke dist sebelum deploy. Projek tidak memerlukan backend.
+
+## Preview visual
+![Preview komputer](docs/preview-desktop.png)
+Lihat [rekod ujian](TESTING.md). Untuk bermain terus, buka `index.html` selepas memuat turun projek, atau aktifkan GitHub Pages melalui Settings → Pages.
