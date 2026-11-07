@@ -16,3 +16,11 @@ Lulus:
 Kaedah: halaman projek sebenar dan semua aset dihidangkan kepada Chromium menggunakan pemintasan permintaan Playwright (route.fulfill). Ini menguji HTML/CSS/JS sebenar tanpa bergantung pada relay preview yang tidak tersedia. Pengesahan ini bukan ujian hos produksi. Ketepatan pendengaran muzik/tepukan tidak disahkan oleh pendengar manusia; audio ialah sintesis Web Audio, bukan rakaman tepukan.
 
 Batasan hos: relay sites-preview tidak tersedia. GitHub Pages memerlukan pemilik mengaktifkan Settings → Pages kerana API integrasi memberi HTTP 403.
+
+## Pengesahan selepas reka bentuk semula
+- Soalan, pilihan jawapan, jawapan betul dan laluan gambar situasi dibandingkan dengan versi terdahulu: sama sepenuhnya.
+- Lima PNG dan README daripada ZIP baharu dibandingkan bait demi bait: sama dengan fail asal.
+- Aliran penuh dimainkan melalui Chromium: susunan kotak bebas, animasi gambar muncul sebelum dialog, salah/ulang cuba, betul/syiling, tiada sambutan awal, sambutan akhir dan reset.
+- Kawalan muzik/bunyi bebas dan keadaan AudioContext disemak; tiada ralat JavaScript.
+- Imej baharu, imej situasi dan latar dimuatkan; tangkapan skrin komputer, tablet dan telefon diperiksa.
+- Fon Nunito disimpan bersama projek untuk mengelakkan kebergantungan CDN semasa bermain.

@@ -2,11 +2,6 @@
 Permainan Bahasa Melayu Tahun 4 — Keselamatan: Waspada Selalu.
 
 ## Main / preview
-
-[Main permainan melalui Sites](https://kotak-misteri-bm-tahun-4.outerrhubarb.chatgpt.site) — akses peribadi pemilik.
-
-[Download ZIP projek](https://github.com/g-ipgp251801475-lgtm/KOTAKMISTERIDIGITAL/archive/refs/heads/main.zip).
-
 Buka `index.html` dalam Chrome, Edge, Firefox atau Safari. Untuk pelayan tempatan, jalankan `python3 -m http.server 8000` di folder projek, kemudian buka http://localhost:8000. Tiada pemasangan pakej diperlukan.
 
 Klik mana-mana kotak. Muzik bermula selepas interaksi pertama. Muzik dan kesan bunyi mempunyai kawalan berasingan. Kemajuan disimpan dalam sesi tab pelayar (jika dibenarkan); MAIN SEMULA mengosongkannya.
@@ -24,6 +19,9 @@ Muat naik `index.html`, `style.css`, `script.js` dan `assets/` ke repositori sas
 
 `dist/` ialah salinan statik untuk Sites hosting. Selepas suntingan, salin semula tiga fail utama dan folder assets ke dist sebelum deploy. Projek tidak memerlukan backend.
 
-## Preview visual
-![Preview komputer](docs/preview-desktop.png)
-Lihat [rekod ujian](TESTING.md). Untuk bermain terus, buka `index.html` selepas memuat turun projek, atau aktifkan GitHub Pages melalui Settings → Pages.
+## Reka bentuk 3D (kemas kini visual)
+Permainan asal dikekalkan. Peti kini menggunakan SVG berlapis yang diinspirasikan oleh `01_treasure_chests_reference.png`, dengan tekstur kayu, bingkai emas, mangga, cahaya, syiling dan tudung beranimasi. Gambar situasi muncul dari peti sebelum kad soalan dibuka.
+
+Watak baharu: `02_briar_bear.png` di sisi Kotak 1, `03_bramble_bear.png` di sisi Kotak 2 dan `04_logger_vick.png` di sisi Kotak 3. `05_three_characters.png` digunakan pada sambutan akhir. Semua PNG asal dikekalkan tanpa pemampatan, pemotongan atau perubahan piksel. ZIP baharu tidak mengandungi gambar situasi; tiga gambar asal terus digunakan.
+
+Fon Nunito dimuatkan secara tempatan; lesen SIL Open Font License disertakan dalam `assets/Nunito-OFL.txt`. Teks kemajuan dan syiling kekal dinamik, bukannya ditetapkan pada 2/3. Pada telefon, tiga pasangan watak dan peti disusun menegak supaya tidak bertindih.
