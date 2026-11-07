@@ -2,6 +2,11 @@
 Permainan Bahasa Melayu Tahun 4 — Keselamatan: Waspada Selalu.
 
 ## Main / preview
+
+[Main permainan melalui Sites](https://kotak-misteri-bm-tahun-4.outerrhubarb.chatgpt.site) — akses peribadi pemilik.
+
+[Download ZIP projek](https://github.com/g-ipgp251801475-lgtm/KOTAKMISTERIDIGITAL/archive/refs/heads/main.zip).
+
 Buka `index.html` dalam Chrome, Edge, Firefox atau Safari. Untuk pelayan tempatan, jalankan `python3 -m http.server 8000` di folder projek, kemudian buka http://localhost:8000. Tiada pemasangan pakej diperlukan.
 
 Klik mana-mana kotak. Muzik bermula selepas interaksi pertama. Muzik dan kesan bunyi mempunyai kawalan berasingan. Kemajuan disimpan dalam sesi tab pelayar (jika dibenarkan); MAIN SEMULA mengosongkannya.
