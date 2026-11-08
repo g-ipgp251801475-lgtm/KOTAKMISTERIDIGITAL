@@ -24,3 +24,6 @@ Batasan hos: relay sites-preview tidak tersedia. GitHub Pages memerlukan pemilik
 - Kawalan muzik/bunyi bebas dan keadaan AudioContext disemak; tiada ralat JavaScript.
 - Imej baharu, imej situasi dan latar dimuatkan; tangkapan skrin komputer, tablet dan telefon diperiksa.
 - Fon Nunito disimpan bersama projek untuk mengelakkan kebergantungan CDN semasa bermain.
+
+## Transparent characters
+Verified PNG alpha ranges 0–255 with transparent canvas corners and visible full-body silhouettes. Chromium checks cover all three cutout images loading, normal blend mode, three distinct looping animations, character/chest separation at 1366/1024/768/390px, happy reaction and reduced-motion disabling animation and sparkles. The complete question/retry/coin/audio/final/reset regression flow also passes. Original source PNGs remain unchanged; main-screen references use the new alpha cutouts.
